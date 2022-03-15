@@ -16,6 +16,6 @@ namespace BTA.Models
 		public int VoyageNumber { get; set; }
 		public string VoyageName { get; set; }
 		public int NumberOfSeats { get; set; }
-		public double OneTicketCost { get; set; }
+		public decimal OneTicketCost { get; set; }
 	}
 }
